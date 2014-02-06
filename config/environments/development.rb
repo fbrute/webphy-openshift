@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Webphy::Application.configure do
+=======
+RailsApp::Application.configure do
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -14,9 +18,13 @@ Webphy::Application.configure do
   config.action_controller.perform_caching = false
 
   # Don't care if the mailer can't send
+<<<<<<< HEAD
   if config.respond_to?(:action_mailer)
     config.action_mailer.raise_delivery_errors = false
   end
+=======
+  config.action_mailer.raise_delivery_errors = false
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log

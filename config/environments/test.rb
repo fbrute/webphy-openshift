@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Webphy::Application.configure do
+=======
+RailsApp::Application.configure do
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
   # Settings specified here will take precedence over those in config/application.rb
 
   # The test environment is used exclusively to run your application's
@@ -27,9 +31,13 @@ Webphy::Application.configure do
   # Tell Action Mailer not to deliver emails to the real world.
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
+<<<<<<< HEAD
   if config.respond_to?(:action_mailer)
     config.action_mailer.delivery_method = :test
   end
+=======
+  config.action_mailer.delivery_method = :test
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
 
   # Raise exception on mass assignment protection for Active Record models
   config.active_record.mass_assignment_sanitizer = :strict

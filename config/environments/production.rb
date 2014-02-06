@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Webphy::Application.configure do
+=======
+RailsApp::Application.configure do
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -15,7 +19,11 @@ Webphy::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
+<<<<<<< HEAD
   config.assets.compile = true
+=======
+  config.assets.compile = false
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
 
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -49,9 +57,13 @@ Webphy::Application.configure do
   # config.assets.precompile += %w( search.js )
 
   # Disable delivery errors, bad email addresses will be ignored
+<<<<<<< HEAD
   if config.respond_to?(:action_mailer)
     # config.action_mailer.raise_delivery_errors = false
   end
+=======
+  # config.action_mailer.raise_delivery_errors = false
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
 
   # Enable threaded mode
   # config.threadsafe!

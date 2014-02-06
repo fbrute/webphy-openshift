@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Webphy::Application.routes.draw do
 
   # This line mounts Refinery's routes at the root of your application.
@@ -7,6 +8,9 @@ Webphy::Application.routes.draw do
   # We ask that you don't use the :as option here, as Refinery relies on it being the default of "refinery"
   mount Refinery::Core::Engine, :at => '/'
 
+=======
+RailsApp::Application.routes.draw do
+>>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
