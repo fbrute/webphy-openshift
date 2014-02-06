@@ -1,4 +1,4 @@
-# Rails Sample App on OpenShift #
+# Rails Sample App on OpenShift ##
 Quickstart rails application for openshift.
 
 The easiest way to install this application is to use the [OpenShift
