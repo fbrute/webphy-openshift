@@ -4,8 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-<<<<<<< HEAD
 Webphy::Application.load_tasks
-=======
-RailsApp::Application.load_tasks
->>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07

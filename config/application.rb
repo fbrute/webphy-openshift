@@ -9,11 +9,7 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
-<<<<<<< HEAD
 module Webphy
-=======
-module RailsApp
->>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers

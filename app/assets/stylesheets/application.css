@@ -8,11 +8,5 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
-<<<<<<< HEAD
  *= require refinery/formatting
  *= require refinery/theme
-=======
->>>>>>> 9fc1618d1b84bcef1ba2ace8a9829457dbfd6e07
- *= require_self
- *= require_tree .
- */
